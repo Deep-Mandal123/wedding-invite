@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Invitation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #ffe6f0, #fff5e6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      border: 5px solid #ff99cc;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      padding: 40px;
+      max-width: 500px;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .card h1 {
+      color: #cc0066;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .card h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .names {
+      font-size: 28px;
+      color: #b30059;
+      margin: 20px 0;
+      font-weight: bold;
+    }
+
+    .details {
+      font-size: 16px;
+      margin-top: 15px;
+      color: #444;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-style: italic;
+      color: #666;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .flower {
+      width: 100px;
+      margin: 10px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://cdn-icons-png.flaticon.com/512/856/856796.png" alt="flower" class="flower">
+    <h1>You're Invited!</h1>
+    <p>We joyfully invite you to celebrate the marriage of</p>
+
+    <div class="names">💞 Bhagirath & Malyashree 💞</div>
+
+    <p class="details">
+      On <b>Thursday, 5th march 2026</b><br>
+      At <b>7:00 PM</b><br>
+      Venue: <b>Shilpi Marriage Hall, Berhampore</b>
+    </p>
+
+    <p class="footer">Join us for a night filled with love, laughter, and dancing!</p>
+  </div>
+</body>
+</html>
